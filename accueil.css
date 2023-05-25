@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Slab:wght@100;200;300;400;500;600;700;800;900 & display=swap' );
+*{
+    font-family: 'Roboto Slab', serif ;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    background-color: #d7ebec;
+
+}
+header ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    padding: 2px;
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(17, 96, 135);
+    font-weight: bold;
+    font-size: 130%;
+    font-family: sans-serif;
+}
+
+header ul li a:hover {
+    color: rgb(100, 176, 201);
+}
+
+
+ /* MAIN */
+ /* MILIEU */
+.milieu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #165c73;
+    color: #f4f5eff5;
+    font-size:180%;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+.wouaf{
+    text-align: center;
+    color: #f6f0f5;
+    font-size: 100%;
+    border-color: #eb920c;
+}
+
+
+.milieu1 button {
+    background-color: #c4700b;
+    color: #eff3f5;
+    border-bottom: #3c083a;
+    padding: 18px 50px;
+    border-radius: 20px;
+    cursor: pointer;   
+    font-size:80%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.milieu1 button:hover{
+    background-color: #d33fce;
+}
+
+.asterix {
+    font-size:50%;
+    font-weight: normal;
+    text-align: center;
+}
+
+.milieu2{
+    display: flex;   
+    justify-content: flex-end;   
+    align-items: center;   
+    margin-left: auto;
+}
+
+
+/* FORMATIONS */
+
+.formations {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #d2e6e8;
+    background-size: contain;
+    min-height: 300;
+    padding: 20px 0px 10px 0px;
+    min-height: 300px; /* fixe une hauteur minimale pour le fond */
+    line-height: 150%;
+}
+.formations .titre {
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(17, 96, 135);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 70px; /* ajoute un espace sous le titre */
+    text-align: center;
+    flex-basis: 100%; /* permet au titre de prendre toute la largeur de la ligne */
+}
+.formations .p1, .p2, .p3 {
+    display: flex;
+    max-width: 600px;
+    text-align: justify;
+    font-weight: bold;
+    align-items: center;
+    line-height: 1.5;
+    flex: 1;
+    margin: 50px;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid #063349; /* couleur et épaisseur de la bordure */
+    padding: 10px; /* espace entre la bordure et le texte */
+    border-radius: 10px; /* arrondi des coins de la bordure */
+    box-shadow: 0 0 50px #565f9e; /* ombre portée */
+    margin-bottom: 12%;
+
+}
+.p1 a img, .p2 a img, .p3 a img{
+    display: flexbox;
+    text-align: left;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;    */
+}
+.p1 button, .p2 button, .p3 button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 
+    background-color: #28758e;
+    color: #eff3f5;
+    border-bottom: #d7ebec;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 250px;
+    height: 70px;
+    box-shadow: 0 0 20px #1ab9b9;
+}
+.p1 button:hover, .p2 button:hover, .p3 button:hover{
+    background-color: #14af83;
+}
+
+
+/* ACCELERATION */
+.Accélérer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.Accélérer h1{
+    color: #770a6c;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10%;
+}
+
+.para h2{
+    text-align: center;
+    color: #260d88;
+    font-size: 25px;
+    font-weight: bold;
+}
+.para a img{
+    float: left;
+    margin-right: 10px;
+}
+.Accélérer p {
+    display: inline-block;
+  }
+
+.para{
+    border: 2px solid black;
+    border: 3px solid #063349; /* couleur et épaisseur de la bordure */
+    padding: 30px; /* espace entre la bordure et le texte */
+    border-radius: 10px; /* arrondi des coins de la bordure */
+    box-shadow: 0 0 50px #770a6c; /* ombre portée */
+    font-weight: bold;
+    color: #761a82;
+}
+.Accélérer button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    margin:40px; 
+    background-color: #ac5cab;
+    color: #eff3f5;
+    border-bottom: #c5abc0;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 400px;
+    height: 70px;
+    box-shadow: 0 0 20px #751f90;
+}
+
+.temoignages{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #207c72; 
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+
+.temoignages h1{
+    color: #ebf3ea;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 5%;
+}
+   
+.temoignages p{
+    color: #ecefec;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right:20% ;
+    margin-bottom: 5%;
+}
+.videos{
+    margin-bottom: 4%;
+    margin-right: 0%;
+    width: 100%;
+    height: auto;
+}
+
+     
+
+
+
+
+
+/* FOOTER */
+.container-footer {
+    display: flex;
+    background-color: #444e4f;
+    justify-content : space-around;
+    color: #f3f4f0;
+    line-height: 2em;
+    background-image: url("./img/font footet.jpg");
+    background-size: cover;
+    background-position: right;
+    height: 400px;
+    padding-top: 20px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container1 button{
+    justify-content: center;
+    margin: 5px;
+}
+.container1 a {
+    justify-content: end;
+    margin: 10px;
+}
+.container4 ul {
+    display: flex;
+    flex-direction: column;
+}
+.container4 ul a {
+    justify-content: center;
+    margin: 15px;
+}
+.container4 button{
+    justify-content: center;
+    margin: 20px; 
+}
+.container1 button, .container4 button {
+    background-color: #28758e;
+    color: #eff3f5;
+    border-bottom: #d7ebec;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .container1 button:hover, .container4 button:hover {
+    background-color: #5fa9e1;
+  }
+  
+  .brochure button {
+    background-color: #bc1c1c;
+    color: #eff3f5;
+    border-bottom: #d7ebec;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .brochure button:hover {
+    background-color: #d87122;
+  }
+
+  .container-footer h2 {
+    text-align: center;
+  }
+
+ 
